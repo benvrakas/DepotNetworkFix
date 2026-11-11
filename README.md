@@ -10,12 +10,13 @@ second, held back while a player's game is behind, so busy depots no longer get 
 
 ## Build
 
-From `D:\SFMod\Tools\BuildScripts`:
+From `D:\SFMod\Tools\BuildScripts` (see its README.md):
 
-- `build-editor.bat`: editor build (needed once so other mods can still be packaged)
-- `package-depotnetworkfix.bat local`: Windows client test zip
-- `package-depotnetworkfix.bat`: release zip (Windows client, Windows and Linux server)
+- `sfmod editor`: editor build (needed once so other mods can still be packaged)
+- `sfmod package DepotNetworkFix local`: Windows client test zip
+- `sfmod package DepotNetworkFix`: release zips (Windows client, Windows and Linux server)
+- `sfmod release DepotNetworkFix`: GitHub release of the packaged zips
 
-Output: `SatisfactoryModLoader\Saved\ArchivedPlugins\DepotNetworkFix\DepotNetworkFix.zip`.
+Output: `SatisfactoryModLoader\Saved\ArchivedPlugins\DepotNetworkFix\`.
 
 Icon: `python Tools/make_icon.py`.
