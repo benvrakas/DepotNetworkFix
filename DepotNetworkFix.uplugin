@@ -1,9 +1,9 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.0",
-	"SemVersion": "1.0.0",
-	"GameVersion": ">=513885",
+	"VersionName": "1.0.1",
+	"SemVersion": "1.0.1",
+	"GameVersion": ">=520140",
 	"FriendlyName": "Depot Network Fix",
 	"Description": "Stops dedicated and hosted servers from kicking players with \"Outgoing reliable buffer overflow\" when Dimensional Depots change quickly, by sending depot count updates in merged batches the connection can keep up with. Only the server needs it.",
 	"Category": "Modding",
@@ -28,7 +28,7 @@
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.12.0"
+			"SemVersion": "^3.12.1"
 		}
 	]
 }
